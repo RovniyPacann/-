@@ -1,0 +1,33 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <h1>Развитие искусственного интеллекта до 2030 года</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#perspectives">Перспективы ИИ</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        {/* Текст и изображения о развитии ИИ */}
+        {/* Интерактивные элементы */}
+      </main>
+
+      <footer>
+        <p>© 2023 Все права защищены.</p>
+        <ul>
+          <li><a href="https://twitter.com/">Twitter</a></li>
+          <li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
