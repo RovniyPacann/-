@@ -1,33 +1,92 @@
-import React from 'react';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header>
-        <h1>Развитие искусственного интеллекта до 2030 года</h1>
-        <nav>
-          <ul>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#perspectives">Перспективы ИИ</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <main>
-        {/* Текст и изображения о развитии ИИ */}
-        {/* Интерактивные элементы */}
-      </main>
-
-      <footer>
-        <p>© 2023 Все права защищены.</p>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Развитие искусственного интеллекта до 2030 года</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <h1>Развитие искусственного интеллекта до 2030 года</h1>
+      <nav>
         <ul>
-          <li><a href="https://twitter.com/">Twitter</a></li>
-          <li><a href="https://www.facebook.com/">Facebook</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#perspectives">Перспективы ИИ</a></li>
         </ul>
-      </footer>
-    </div>
-  );
-}
+      </nav>
+    </header>
 
-export default App;
+    <!-- Основная часть -->
+    <main>
+      <!-- Текст и изображения о развитии ИИ -->
+      <section id="about" class="section">
+        <h2>О нас</h2>
+        <p>Этот сайт посвящён исследованию и анализу развития искусственного интеллекта в период до 2030 года.</p>
+      </section>
+
+      <section id="perspectives" class="section">
+        <h2>Перспективы ИИ</h2>
+        <!-- Интерактивные элементы (графики, диаграммы, видео) -->
+        <div class="interactive-content">
+          <!-- Здесь можно разместить графики, диаграммы или видео о перспективах ИИ -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+      <p>&copy; 2023 Все права защищены.</p>
+      <ul>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+      </ul>
+    </footer>
+
+    <!-- Стили для оформления проекта -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      section {
+        background-color: #f5f5f5;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: all 0.3s ease;
+      }
+
+      .section:hover {
+        transform: translateY(-5px);
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #222;
+        color: white;
+        line-height: 60px;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
+  </body>
+</html>
